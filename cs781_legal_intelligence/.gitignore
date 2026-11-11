@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# model weights, checkpoints, token memmaps and submissions are not tracked
+*.pt
+*.bin
+*.safetensors
+*.npy
+submission*.zip
+/runs/
+/data/

@@ -1,0 +1,14 @@
+# Phase-1 tooling, backbones and notebooks (Kaggle images already ship most of these)
+torch>=2.1
+numpy
+tokenizers>=0.15
+huggingface_hub
+ijson
+psutil
+scipy
+scikit-learn
+matplotlib
+# evaluation
+bert_score
+rouge_score
+sacrebleu

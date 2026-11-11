@@ -1,0 +1,32 @@
+{
+  "model": {
+    "arch": "swa_lite",
+    "vocab_size": 32000,
+    "n_layer": 12,
+    "n_head": 8,
+    "d_model": 512,
+    "d_ff": 1536,
+    "max_seq_len": 1024,
+    "rope_theta": 10000.0,
+    "norm_eps": 1e-05,
+    "window": 256
+  },
+  "train_bin": "/tmp/cs781_data/train.bin",
+  "val_bin": "/tmp/cs781_data/val.bin",
+  "tokenizer": "/tmp/cs781_data/tokenizer.json",
+  "out_dir": "/kaggle/working/swa_lite",
+  "train_hours": 9.0,
+  "seed": 42,
+  "micro_batch": 8,
+  "grad_accum": 16,
+  "peak_lr": 0.0006,
+  "min_lr_ratio": 0.1,
+  "warmup_steps": 200,
+  "decay_fraction": 0.2,
+  "weight_decay": 0.1,
+  "compile": true,
+  "eval_every_sec": 1200,
+  "ckpt_every_sec": 1800,
+  "log_every": 20,
+  "eval_batches": 4
+}

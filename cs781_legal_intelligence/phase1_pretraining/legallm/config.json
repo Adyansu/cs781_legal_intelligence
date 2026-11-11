@@ -1,0 +1,10 @@
+{
+  "vocab_size": 32000,
+  "n_layer": 12,
+  "n_head": 12,
+  "d_model": 768,
+  "d_ff": 2048,
+  "max_seq_len": 1024,
+  "rope_theta": 10000.0,
+  "norm_eps": 1e-05
+}
